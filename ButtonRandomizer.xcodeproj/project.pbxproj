@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6B4EC052ACAFF2C003B6F0D /* ButtonRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */; };
+		D6B4EC072ACAFF2C003B6F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */; };
+		D6B4EC092ACAFF2D003B6F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC082ACAFF2D003B6F0D /* Assets.xcassets */; };
+		D6B4EC0C2ACAFF2D003B6F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC0B2ACAFF2D003B6F0D /* Preview Assets.xcassets */; };
+		D6B4EC162ACAFF2D003B6F0D /* ButtonRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC152ACAFF2D003B6F0D /* ButtonRandomizerTests.swift */; };
+		D6B4EC202ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC1F2ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift */; };
+		D6B4EC222ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC212ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6B4EC122ACAFF2D003B6F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B4EBF92ACAFF2C003B6F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B4EC002ACAFF2C003B6F0D;
+			remoteInfo = ButtonRandomizer;
+		};
+		D6B4EC1C2ACAFF2D003B6F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B4EBF92ACAFF2C003B6F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B4EC002ACAFF2C003B6F0D;
+			remoteInfo = ButtonRandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerApp.swift; sourceTree = "<group>"; };
+		D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6B4EC082ACAFF2D003B6F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6B4EC0B2ACAFF2D003B6F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6B4EC112ACAFF2D003B6F0D /* ButtonRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B4EC152ACAFF2D003B6F0D /* ButtonRandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerTests.swift; sourceTree = "<group>"; };
+		D6B4EC1B2ACAFF2D003B6F0D /* ButtonRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B4EC1F2ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerUITests.swift; sourceTree = "<group>"; };
+		D6B4EC212ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B4EBFE2ACAFF2C003B6F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4EC0E2ACAFF2D003B6F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4EC182ACAFF2D003B6F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6B4EBF82ACAFF2C003B6F0D = {
+			isa = PBXGroup;
+			children = (
+				D6B4EC032ACAFF2C003B6F0D /* ButtonRandomizer */,
+				D6B4EC142ACAFF2D003B6F0D /* ButtonRandomizerTests */,
+				D6B4EC1E2ACAFF2D003B6F0D /* ButtonRandomizerUITests */,
+				D6B4EC022ACAFF2C003B6F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B4EC022ACAFF2C003B6F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */,
+				D6B4EC112ACAFF2D003B6F0D /* ButtonRandomizerTests.xctest */,
+				D6B4EC1B2ACAFF2D003B6F0D /* ButtonRandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B4EC032ACAFF2C003B6F0D /* ButtonRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */,
+				D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */,
+				D6B4EC082ACAFF2D003B6F0D /* Assets.xcassets */,
+				D6B4EC0A2ACAFF2D003B6F0D /* Preview Content */,
+			);
+			path = ButtonRandomizer;
+			sourceTree = "<group>";
+		};
+		D6B4EC0A2ACAFF2D003B6F0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4EC0B2ACAFF2D003B6F0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6B4EC142ACAFF2D003B6F0D /* ButtonRandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4EC152ACAFF2D003B6F0D /* ButtonRandomizerTests.swift */,
+			);
+			path = ButtonRandomizerTests;
+			sourceTree = "<group>";
+		};
+		D6B4EC1E2ACAFF2D003B6F0D /* ButtonRandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4EC1F2ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift */,
+				D6B4EC212ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift */,
+			);
+			path = ButtonRandomizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B4EC002ACAFF2C003B6F0D /* ButtonRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B4EC252ACAFF2D003B6F0D /* Build configuration list for PBXNativeTarget "ButtonRandomizer" */;
+			buildPhases = (
+				D6B4EBFD2ACAFF2C003B6F0D /* Sources */,
+				D6B4EBFE2ACAFF2C003B6F0D /* Frameworks */,
+				D6B4EBFF2ACAFF2C003B6F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonRandomizer;
+			productName = ButtonRandomizer;
+			productReference = D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6B4EC102ACAFF2D003B6F0D /* ButtonRandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B4EC282ACAFF2D003B6F0D /* Build configuration list for PBXNativeTarget "ButtonRandomizerTests" */;
+			buildPhases = (
+				D6B4EC0D2ACAFF2D003B6F0D /* Sources */,
+				D6B4EC0E2ACAFF2D003B6F0D /* Frameworks */,
+				D6B4EC0F2ACAFF2D003B6F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B4EC132ACAFF2D003B6F0D /* PBXTargetDependency */,
+			);
+			name = ButtonRandomizerTests;
+			productName = ButtonRandomizerTests;
+			productReference = D6B4EC112ACAFF2D003B6F0D /* ButtonRandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6B4EC1A2ACAFF2D003B6F0D /* ButtonRandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B4EC2B2ACAFF2D003B6F0D /* Build configuration list for PBXNativeTarget "ButtonRandomizerUITests" */;
+			buildPhases = (
+				D6B4EC172ACAFF2D003B6F0D /* Sources */,
+				D6B4EC182ACAFF2D003B6F0D /* Frameworks */,
+				D6B4EC192ACAFF2D003B6F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B4EC1D2ACAFF2D003B6F0D /* PBXTargetDependency */,
+			);
+			name = ButtonRandomizerUITests;
+			productName = ButtonRandomizerUITests;
+			productReference = D6B4EC1B2ACAFF2D003B6F0D /* ButtonRandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B4EBF92ACAFF2C003B6F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D6B4EC002ACAFF2C003B6F0D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D6B4EC102ACAFF2D003B6F0D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D6B4EC002ACAFF2C003B6F0D;
+					};
+					D6B4EC1A2ACAFF2D003B6F0D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D6B4EC002ACAFF2C003B6F0D;
+					};
+				};
+			};
+			buildConfigurationList = D6B4EBFC2ACAFF2C003B6F0D /* Build configuration list for PBXProject "ButtonRandomizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B4EBF82ACAFF2C003B6F0D;
+			productRefGroup = D6B4EC022ACAFF2C003B6F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B4EC002ACAFF2C003B6F0D /* ButtonRandomizer */,
+				D6B4EC102ACAFF2D003B6F0D /* ButtonRandomizerTests */,
+				D6B4EC1A2ACAFF2D003B6F0D /* ButtonRandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B4EBFF2ACAFF2C003B6F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B4EC0C2ACAFF2D003B6F0D /* Preview Assets.xcassets in Resources */,
+				D6B4EC092ACAFF2D003B6F0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4EC0F2ACAFF2D003B6F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4EC192ACAFF2D003B6F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B4EBFD2ACAFF2C003B6F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B4EC072ACAFF2C003B6F0D /* ContentView.swift in Sources */,
+				D6B4EC052ACAFF2C003B6F0D /* ButtonRandomizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4EC0D2ACAFF2D003B6F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B4EC162ACAFF2D003B6F0D /* ButtonRandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4EC172ACAFF2D003B6F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B4EC202ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift in Sources */,
+				D6B4EC222ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6B4EC132ACAFF2D003B6F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B4EC002ACAFF2C003B6F0D /* ButtonRandomizer */;
+			targetProxy = D6B4EC122ACAFF2D003B6F0D /* PBXContainerItemProxy */;
+		};
+		D6B4EC1D2ACAFF2D003B6F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B4EC002ACAFF2C003B6F0D /* ButtonRandomizer */;
+			targetProxy = D6B4EC1C2ACAFF2D003B6F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6B4EC232ACAFF2D003B6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6B4EC242ACAFF2D003B6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B4EC262ACAFF2D003B6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ButtonRandomizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.BUttonRandomizer.ButtonRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6B4EC272ACAFF2D003B6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ButtonRandomizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.BUttonRandomizer.ButtonRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6B4EC292ACAFF2D003B6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.BUttonRandomizer.ButtonRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ButtonRandomizer";
+			};
+			name = Debug;
+		};
+		D6B4EC2A2ACAFF2D003B6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.BUttonRandomizer.ButtonRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ButtonRandomizer";
+			};
+			name = Release;
+		};
+		D6B4EC2C2ACAFF2D003B6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.BUttonRandomizer.ButtonRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonRandomizer;
+			};
+			name = Debug;
+		};
+		D6B4EC2D2ACAFF2D003B6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.BUttonRandomizer.ButtonRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonRandomizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B4EBFC2ACAFF2C003B6F0D /* Build configuration list for PBXProject "ButtonRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B4EC232ACAFF2D003B6F0D /* Debug */,
+				D6B4EC242ACAFF2D003B6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B4EC252ACAFF2D003B6F0D /* Build configuration list for PBXNativeTarget "ButtonRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B4EC262ACAFF2D003B6F0D /* Debug */,
+				D6B4EC272ACAFF2D003B6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B4EC282ACAFF2D003B6F0D /* Build configuration list for PBXNativeTarget "ButtonRandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B4EC292ACAFF2D003B6F0D /* Debug */,
+				D6B4EC2A2ACAFF2D003B6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B4EC2B2ACAFF2D003B6F0D /* Build configuration list for PBXNativeTarget "ButtonRandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B4EC2C2ACAFF2D003B6F0D /* Debug */,
+				D6B4EC2D2ACAFF2D003B6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B4EBF92ACAFF2C003B6F0D /* Project object */;
+}
