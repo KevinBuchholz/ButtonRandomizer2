@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D601E8422ACC620800CBD045 /* COUNTER.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8412ACC620800CBD045 /* COUNTER.swift */; };
+		D601E8442ACC809100CBD045 /* CircleOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8432ACC809100CBD045 /* CircleOnTap.swift */; };
+		D601E8802ACC9F7F00CBD045 /* snarecut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E87F2ACC9F7F00CBD045 /* snarecut.mp3 */; };
+		D601E8822ACCA28900CBD045 /* crash1cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E8812ACCA28900CBD045 /* crash1cut.mp3 */; };
+		D601E8842ACCA28F00CBD045 /* crash2cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E8832ACCA28F00CBD045 /* crash2cut.mp3 */; };
+		D601E8862ACCA29500CBD045 /* hihatcut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E8852ACCA29500CBD045 /* hihatcut.mp3 */; };
+		D601E8882ACCA29C00CBD045 /* ridecut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E8872ACCA29C00CBD045 /* ridecut.mp3 */; };
+		D601E88A2ACCA2A400CBD045 /* tom1cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E8892ACCA2A400CBD045 /* tom1cut.mp3 */; };
+		D601E88C2ACCA2AB00CBD045 /* tom2cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E88B2ACCA2AB00CBD045 /* tom2cut.mp3 */; };
+		D601E88E2ACCA2B000CBD045 /* tomfloorcut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D601E88D2ACCA2B000CBD045 /* tomfloorcut.mp3 */; };
+		D601E8902ACCA8F300CBD045 /* BassDrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E88F2ACCA8F300CBD045 /* BassDrumView.swift */; };
+		D601E8922ACCA92800CBD045 /* DrumKit4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8912ACCA92800CBD045 /* DrumKit4.swift */; };
+		D601E8942ACCA9CD00CBD045 /* SnareDrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8932ACCA9CD00CBD045 /* SnareDrumView.swift */; };
+		D601E8962ACCAA2500CBD045 /* Tom1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8952ACCAA2500CBD045 /* Tom1View.swift */; };
+		D601E8982ACCAA4800CBD045 /* Tom2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8972ACCAA4800CBD045 /* Tom2View.swift */; };
+		D601E89A2ACCAA6A00CBD045 /* FloorTomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8992ACCAA6A00CBD045 /* FloorTomView.swift */; };
+		D601E89C2ACCAA8800CBD045 /* HiHatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E89B2ACCAA8800CBD045 /* HiHatView.swift */; };
+		D601E89E2ACCAAA700CBD045 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E89D2ACCAAA700CBD045 /* RideView.swift */; };
+		D601E8A02ACCAAC500CBD045 /* Crash1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E89F2ACCAAC500CBD045 /* Crash1View.swift */; };
+		D601E8A22ACCAAE100CBD045 /* Crash2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8A12ACCAAE100CBD045 /* Crash2View.swift */; };
+		D65FE2FA2ACD948D0013DF05 /* DrumKitRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */; };
+		D65FE2FC2ACD98D60013DF05 /* TrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */; };
+		D6A2668A2AD889B700886E22 /* coryissick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6A266892AD889B700886E22 /* coryissick.mp3 */; };
 		D6B4EC052ACAFF2C003B6F0D /* ButtonRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */; };
 		D6B4EC072ACAFF2C003B6F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */; };
 		D6B4EC092ACAFF2D003B6F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC082ACAFF2D003B6F0D /* Assets.xcassets */; };
@@ -14,6 +37,25 @@
 		D6B4EC162ACAFF2D003B6F0D /* ButtonRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC152ACAFF2D003B6F0D /* ButtonRandomizerTests.swift */; };
 		D6B4EC202ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC1F2ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift */; };
 		D6B4EC222ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC212ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift */; };
+		D6B4EC2F2ACB1114003B6F0D /* DrumLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC2E2ACB1114003B6F0D /* DrumLayout.swift */; };
+		D6B4EC312ACB16D0003B6F0D /* LazyHexGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC302ACB16D0003B6F0D /* LazyHexGrid.swift */; };
+		D6B4EC342ACB180D003B6F0D /* HexGrid in Frameworks */ = {isa = PBXBuildFile; productRef = D6B4EC332ACB180D003B6F0D /* HexGrid */; };
+		D6B4EC362ACB45BB003B6F0D /* CircleButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC352ACB45BB003B6F0D /* CircleButtonTest.swift */; };
+		D6B4EC3C2ACB4691003B6F0D /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC392ACB4690003B6F0D /* victory.mp3 */; };
+		D6B4EC3D2ACB4691003B6F0D /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC3A2ACB4691003B6F0D /* fart.mp3 */; };
+		D6B4EC3E2ACB4691003B6F0D /* flush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC3B2ACB4691003B6F0D /* flush.mp3 */; };
+		D6B4EC3F2ACB47E3003B6F0D /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC372ACB4660003B6F0D /* PlayViewModel.swift */; };
+		D6B4EC492ACB4A0A003B6F0D /* snare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC402ACB4A0A003B6F0D /* snare.mp3 */; };
+		D6B4EC4A2ACB4A0A003B6F0D /* tomfloor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC412ACB4A0A003B6F0D /* tomfloor.mp3 */; };
+		D6B4EC4B2ACB4A0A003B6F0D /* crash2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC422ACB4A0A003B6F0D /* crash2.mp3 */; };
+		D6B4EC4C2ACB4A0A003B6F0D /* bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC432ACB4A0A003B6F0D /* bass.mp3 */; };
+		D6B4EC4D2ACB4A0A003B6F0D /* hihat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC442ACB4A0A003B6F0D /* hihat.mp3 */; };
+		D6B4EC4E2ACB4A0A003B6F0D /* tom1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC452ACB4A0A003B6F0D /* tom1.mp3 */; };
+		D6B4EC4F2ACB4A0A003B6F0D /* tom2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC462ACB4A0A003B6F0D /* tom2.mp3 */; };
+		D6B4EC502ACB4A0A003B6F0D /* ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC472ACB4A0A003B6F0D /* ride.mp3 */; };
+		D6B4EC512ACB4A0A003B6F0D /* crash1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B4EC482ACB4A0A003B6F0D /* crash1.mp3 */; };
+		D6B4EC532ACB5E11003B6F0D /* OnTapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC522ACB5E11003B6F0D /* OnTapTest.swift */; };
+		D6B4EC552ACB607A003B6F0D /* DrumLayout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC542ACB607A003B6F0D /* DrumLayout2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +76,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D601E8412ACC620800CBD045 /* COUNTER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COUNTER.swift; sourceTree = "<group>"; };
+		D601E8432ACC809100CBD045 /* CircleOnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOnTap.swift; sourceTree = "<group>"; };
+		D601E87F2ACC9F7F00CBD045 /* snarecut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snarecut.mp3; sourceTree = "<group>"; };
+		D601E8812ACCA28900CBD045 /* crash1cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash1cut.mp3; sourceTree = "<group>"; };
+		D601E8832ACCA28F00CBD045 /* crash2cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash2cut.mp3; sourceTree = "<group>"; };
+		D601E8852ACCA29500CBD045 /* hihatcut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hihatcut.mp3; sourceTree = "<group>"; };
+		D601E8872ACCA29C00CBD045 /* ridecut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ridecut.mp3; sourceTree = "<group>"; };
+		D601E8892ACCA2A400CBD045 /* tom1cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tom1cut.mp3; sourceTree = "<group>"; };
+		D601E88B2ACCA2AB00CBD045 /* tom2cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tom2cut.mp3; sourceTree = "<group>"; };
+		D601E88D2ACCA2B000CBD045 /* tomfloorcut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomfloorcut.mp3; sourceTree = "<group>"; };
+		D601E88F2ACCA8F300CBD045 /* BassDrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassDrumView.swift; sourceTree = "<group>"; };
+		D601E8912ACCA92800CBD045 /* DrumKit4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumKit4.swift; sourceTree = "<group>"; };
+		D601E8932ACCA9CD00CBD045 /* SnareDrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnareDrumView.swift; sourceTree = "<group>"; };
+		D601E8952ACCAA2500CBD045 /* Tom1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tom1View.swift; sourceTree = "<group>"; };
+		D601E8972ACCAA4800CBD045 /* Tom2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tom2View.swift; sourceTree = "<group>"; };
+		D601E8992ACCAA6A00CBD045 /* FloorTomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorTomView.swift; sourceTree = "<group>"; };
+		D601E89B2ACCAA8800CBD045 /* HiHatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiHatView.swift; sourceTree = "<group>"; };
+		D601E89D2ACCAAA700CBD045 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
+		D601E89F2ACCAAC500CBD045 /* Crash1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crash1View.swift; sourceTree = "<group>"; };
+		D601E8A12ACCAAE100CBD045 /* Crash2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crash2View.swift; sourceTree = "<group>"; };
+		D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumKitRandomizer.swift; sourceTree = "<group>"; };
+		D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollViewModel.swift; sourceTree = "<group>"; };
+		D6A266892AD889B700886E22 /* coryissick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coryissick.mp3; sourceTree = "<group>"; };
 		D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerApp.swift; sourceTree = "<group>"; };
 		D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +109,24 @@
 		D6B4EC1B2ACAFF2D003B6F0D /* ButtonRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B4EC1F2ACAFF2D003B6F0D /* ButtonRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerUITests.swift; sourceTree = "<group>"; };
 		D6B4EC212ACAFF2D003B6F0D /* ButtonRandomizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6B4EC2E2ACB1114003B6F0D /* DrumLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumLayout.swift; sourceTree = "<group>"; };
+		D6B4EC302ACB16D0003B6F0D /* LazyHexGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHexGrid.swift; sourceTree = "<group>"; };
+		D6B4EC352ACB45BB003B6F0D /* CircleButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonTest.swift; sourceTree = "<group>"; };
+		D6B4EC372ACB4660003B6F0D /* PlayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		D6B4EC392ACB4690003B6F0D /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+		D6B4EC3A2ACB4691003B6F0D /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
+		D6B4EC3B2ACB4691003B6F0D /* flush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flush.mp3; sourceTree = "<group>"; };
+		D6B4EC402ACB4A0A003B6F0D /* snare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snare.mp3; sourceTree = "<group>"; };
+		D6B4EC412ACB4A0A003B6F0D /* tomfloor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomfloor.mp3; sourceTree = "<group>"; };
+		D6B4EC422ACB4A0A003B6F0D /* crash2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash2.mp3; sourceTree = "<group>"; };
+		D6B4EC432ACB4A0A003B6F0D /* bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bass.mp3; sourceTree = "<group>"; };
+		D6B4EC442ACB4A0A003B6F0D /* hihat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hihat.mp3; sourceTree = "<group>"; };
+		D6B4EC452ACB4A0A003B6F0D /* tom1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tom1.mp3; sourceTree = "<group>"; };
+		D6B4EC462ACB4A0A003B6F0D /* tom2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tom2.mp3; sourceTree = "<group>"; };
+		D6B4EC472ACB4A0A003B6F0D /* ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride.mp3; sourceTree = "<group>"; };
+		D6B4EC482ACB4A0A003B6F0D /* crash1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash1.mp3; sourceTree = "<group>"; };
+		D6B4EC522ACB5E11003B6F0D /* OnTapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTapTest.swift; sourceTree = "<group>"; };
+		D6B4EC542ACB607A003B6F0D /* DrumLayout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumLayout2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B4EC342ACB180D003B6F0D /* HexGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +155,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D601E8A32ACCAAFB00CBD045 /* DRUMS */ = {
+			isa = PBXGroup;
+			children = (
+				D601E8952ACCAA2500CBD045 /* Tom1View.swift */,
+				D601E8972ACCAA4800CBD045 /* Tom2View.swift */,
+				D601E89B2ACCAA8800CBD045 /* HiHatView.swift */,
+				D601E89D2ACCAAA700CBD045 /* RideView.swift */,
+				D601E8992ACCAA6A00CBD045 /* FloorTomView.swift */,
+				D601E8932ACCA9CD00CBD045 /* SnareDrumView.swift */,
+				D601E88F2ACCA8F300CBD045 /* BassDrumView.swift */,
+				D601E8A12ACCAAE100CBD045 /* Crash2View.swift */,
+				D601E89F2ACCAAC500CBD045 /* Crash1View.swift */,
+			);
+			path = DRUMS;
+			sourceTree = "<group>";
+		};
+		D65FE2F62ACD926C0013DF05 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D6A266892AD889B700886E22 /* coryissick.mp3 */,
+				D601E87F2ACC9F7F00CBD045 /* snarecut.mp3 */,
+				D6B4EC442ACB4A0A003B6F0D /* hihat.mp3 */,
+				D601E8852ACCA29500CBD045 /* hihatcut.mp3 */,
+				D6B4EC472ACB4A0A003B6F0D /* ride.mp3 */,
+				D601E8872ACCA29C00CBD045 /* ridecut.mp3 */,
+				D6B4EC452ACB4A0A003B6F0D /* tom1.mp3 */,
+				D601E8892ACCA2A400CBD045 /* tom1cut.mp3 */,
+				D6B4EC462ACB4A0A003B6F0D /* tom2.mp3 */,
+				D601E88B2ACCA2AB00CBD045 /* tom2cut.mp3 */,
+				D6B4EC412ACB4A0A003B6F0D /* tomfloor.mp3 */,
+				D601E88D2ACCA2B000CBD045 /* tomfloorcut.mp3 */,
+				D6B4EC482ACB4A0A003B6F0D /* crash1.mp3 */,
+				D601E8812ACCA28900CBD045 /* crash1cut.mp3 */,
+				D6B4EC422ACB4A0A003B6F0D /* crash2.mp3 */,
+				D601E8832ACCA28F00CBD045 /* crash2cut.mp3 */,
+				D6B4EC402ACB4A0A003B6F0D /* snare.mp3 */,
+				D6B4EC3A2ACB4691003B6F0D /* fart.mp3 */,
+				D6B4EC3B2ACB4691003B6F0D /* flush.mp3 */,
+				D6B4EC392ACB4690003B6F0D /* victory.mp3 */,
+				D6B4EC432ACB4A0A003B6F0D /* bass.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		D6B4EBF82ACAFF2C003B6F0D = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +223,21 @@
 			isa = PBXGroup;
 			children = (
 				D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */,
+				D601E8A32ACCAAFB00CBD045 /* DRUMS */,
+				D601E8912ACCA92800CBD045 /* DrumKit4.swift */,
+				D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */,
+				D601E8432ACC809100CBD045 /* CircleOnTap.swift */,
 				D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */,
+				D601E8412ACC620800CBD045 /* COUNTER.swift */,
+				D6B4EC352ACB45BB003B6F0D /* CircleButtonTest.swift */,
+				D6B4EC522ACB5E11003B6F0D /* OnTapTest.swift */,
+				D6B4EC2E2ACB1114003B6F0D /* DrumLayout.swift */,
+				D6B4EC542ACB607A003B6F0D /* DrumLayout2.swift */,
+				D6B4EC302ACB16D0003B6F0D /* LazyHexGrid.swift */,
 				D6B4EC082ACAFF2D003B6F0D /* Assets.xcassets */,
+				D65FE2F62ACD926C0013DF05 /* Sounds */,
+				D6B4EC372ACB4660003B6F0D /* PlayViewModel.swift */,
+				D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */,
 				D6B4EC0A2ACAFF2D003B6F0D /* Preview Content */,
 			);
 			path = ButtonRandomizer;
@@ -143,6 +284,9 @@
 			dependencies = (
 			);
 			name = ButtonRandomizer;
+			packageProductDependencies = (
+				D6B4EC332ACB180D003B6F0D /* HexGrid */,
+			);
 			productName = ButtonRandomizer;
 			productReference = D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +359,9 @@
 				Base,
 			);
 			mainGroup = D6B4EBF82ACAFF2C003B6F0D;
+			packageReferences = (
+				D6B4EC322ACB180D003B6F0D /* XCRemoteSwiftPackageReference "HexGrid" */,
+			);
 			productRefGroup = D6B4EC022ACAFF2C003B6F0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +380,27 @@
 			files = (
 				D6B4EC0C2ACAFF2D003B6F0D /* Preview Assets.xcassets in Resources */,
 				D6B4EC092ACAFF2D003B6F0D /* Assets.xcassets in Resources */,
+				D6B4EC502ACB4A0A003B6F0D /* ride.mp3 in Resources */,
+				D601E88E2ACCA2B000CBD045 /* tomfloorcut.mp3 in Resources */,
+				D6B4EC4C2ACB4A0A003B6F0D /* bass.mp3 in Resources */,
+				D6B4EC3C2ACB4691003B6F0D /* victory.mp3 in Resources */,
+				D601E88C2ACCA2AB00CBD045 /* tom2cut.mp3 in Resources */,
+				D6B4EC4E2ACB4A0A003B6F0D /* tom1.mp3 in Resources */,
+				D601E8842ACCA28F00CBD045 /* crash2cut.mp3 in Resources */,
+				D6B4EC4B2ACB4A0A003B6F0D /* crash2.mp3 in Resources */,
+				D6B4EC3E2ACB4691003B6F0D /* flush.mp3 in Resources */,
+				D6B4EC512ACB4A0A003B6F0D /* crash1.mp3 in Resources */,
+				D6B4EC492ACB4A0A003B6F0D /* snare.mp3 in Resources */,
+				D601E88A2ACCA2A400CBD045 /* tom1cut.mp3 in Resources */,
+				D6B4EC4F2ACB4A0A003B6F0D /* tom2.mp3 in Resources */,
+				D6A2668A2AD889B700886E22 /* coryissick.mp3 in Resources */,
+				D6B4EC4D2ACB4A0A003B6F0D /* hihat.mp3 in Resources */,
+				D6B4EC4A2ACB4A0A003B6F0D /* tomfloor.mp3 in Resources */,
+				D601E8862ACCA29500CBD045 /* hihatcut.mp3 in Resources */,
+				D6B4EC3D2ACB4691003B6F0D /* fart.mp3 in Resources */,
+				D601E8882ACCA29C00CBD045 /* ridecut.mp3 in Resources */,
+				D601E8802ACC9F7F00CBD045 /* snarecut.mp3 in Resources */,
+				D601E8822ACCA28900CBD045 /* crash1cut.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +425,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D601E8A02ACCAAC500CBD045 /* Crash1View.swift in Sources */,
+				D601E89E2ACCAAA700CBD045 /* RideView.swift in Sources */,
+				D6B4EC3F2ACB47E3003B6F0D /* PlayViewModel.swift in Sources */,
+				D601E8942ACCA9CD00CBD045 /* SnareDrumView.swift in Sources */,
+				D601E89C2ACCAA8800CBD045 /* HiHatView.swift in Sources */,
 				D6B4EC072ACAFF2C003B6F0D /* ContentView.swift in Sources */,
+				D601E8442ACC809100CBD045 /* CircleOnTap.swift in Sources */,
 				D6B4EC052ACAFF2C003B6F0D /* ButtonRandomizerApp.swift in Sources */,
+				D601E8962ACCAA2500CBD045 /* Tom1View.swift in Sources */,
+				D601E8A22ACCAAE100CBD045 /* Crash2View.swift in Sources */,
+				D6B4EC2F2ACB1114003B6F0D /* DrumLayout.swift in Sources */,
+				D601E8922ACCA92800CBD045 /* DrumKit4.swift in Sources */,
+				D601E8422ACC620800CBD045 /* COUNTER.swift in Sources */,
+				D6B4EC552ACB607A003B6F0D /* DrumLayout2.swift in Sources */,
+				D601E89A2ACCAA6A00CBD045 /* FloorTomView.swift in Sources */,
+				D601E8902ACCA8F300CBD045 /* BassDrumView.swift in Sources */,
+				D65FE2FC2ACD98D60013DF05 /* TrollViewModel.swift in Sources */,
+				D6B4EC362ACB45BB003B6F0D /* CircleButtonTest.swift in Sources */,
+				D65FE2FA2ACD948D0013DF05 /* DrumKitRandomizer.swift in Sources */,
+				D601E8982ACCAA4800CBD045 /* Tom2View.swift in Sources */,
+				D6B4EC532ACB5E11003B6F0D /* OnTapTest.swift in Sources */,
+				D6B4EC312ACB16D0003B6F0D /* LazyHexGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,13 +605,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ButtonRandomizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,13 +634,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ButtonRandomizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,6 +767,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6B4EC322ACB180D003B6F0D /* XCRemoteSwiftPackageReference "HexGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ksemianov/HexGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6B4EC332ACB180D003B6F0D /* HexGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6B4EC322ACB180D003B6F0D /* XCRemoteSwiftPackageReference "HexGrid" */;
+			productName = HexGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6B4EBF92ACAFF2C003B6F0D /* Project object */;
 }
