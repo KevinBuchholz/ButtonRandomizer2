@@ -29,10 +29,10 @@ class PlayViewModel: ObservableObject {
     
     func soundTroll() {
 
-        let randomInteger = Int.random(in: 1...13)
+        let randomInteger = Int.random(in: 1...12)
         switch randomInteger {
-        case 1 : play()
-        case 2 : playFart()
+        case 1 : playFart()
+        case 2 : playCory()
         case 3 : playCory()
         case 4 : playBass()
         case 5 : playRide()
@@ -68,8 +68,8 @@ class PlayViewModel: ObservableObject {
     }
     
     func playBass() {
-        let bass = Bundle.main.path(forResource: "bass", ofType: "mp3")
-        self.bassPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: bass!))
+        let basscut = Bundle.main.path(forResource: "basscut", ofType: "mp3")
+        self.bassPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: basscut!))
         self.bassPlayer.play()
     }
     

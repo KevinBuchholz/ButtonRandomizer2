@@ -27,6 +27,7 @@
 		D601E89E2ACCAAA700CBD045 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E89D2ACCAAA700CBD045 /* RideView.swift */; };
 		D601E8A02ACCAAC500CBD045 /* Crash1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E89F2ACCAAC500CBD045 /* Crash1View.swift */; };
 		D601E8A22ACCAAE100CBD045 /* Crash2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601E8A12ACCAAE100CBD045 /* Crash2View.swift */; };
+		D64997E62AD9927F00862BA1 /* basscut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64997E52AD9927F00862BA1 /* basscut.mp3 */; };
 		D65FE2FA2ACD948D0013DF05 /* DrumKitRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */; };
 		D65FE2FC2ACD98D60013DF05 /* TrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */; };
 		D6A2668A2AD889B700886E22 /* coryissick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6A266892AD889B700886E22 /* coryissick.mp3 */; };
@@ -96,6 +97,7 @@
 		D601E89D2ACCAAA700CBD045 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
 		D601E89F2ACCAAC500CBD045 /* Crash1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crash1View.swift; sourceTree = "<group>"; };
 		D601E8A12ACCAAE100CBD045 /* Crash2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crash2View.swift; sourceTree = "<group>"; };
+		D64997E52AD9927F00862BA1 /* basscut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = basscut.mp3; sourceTree = "<group>"; };
 		D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumKitRandomizer.swift; sourceTree = "<group>"; };
 		D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollViewModel.swift; sourceTree = "<group>"; };
 		D6A266892AD889B700886E22 /* coryissick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coryissick.mp3; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				D6B4EC452ACB4A0A003B6F0D /* tom1.mp3 */,
 				D601E8892ACCA2A400CBD045 /* tom1cut.mp3 */,
 				D6B4EC462ACB4A0A003B6F0D /* tom2.mp3 */,
+				D64997E52AD9927F00862BA1 /* basscut.mp3 */,
 				D601E88B2ACCA2AB00CBD045 /* tom2cut.mp3 */,
 				D6B4EC412ACB4A0A003B6F0D /* tomfloor.mp3 */,
 				D601E88D2ACCA2B000CBD045 /* tomfloorcut.mp3 */,
@@ -400,6 +403,7 @@
 				D6B4EC3D2ACB4691003B6F0D /* fart.mp3 in Resources */,
 				D601E8882ACCA29C00CBD045 /* ridecut.mp3 in Resources */,
 				D601E8802ACC9F7F00CBD045 /* snarecut.mp3 in Resources */,
+				D64997E62AD9927F00862BA1 /* basscut.mp3 in Resources */,
 				D601E8822ACCA28900CBD045 /* crash1cut.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
