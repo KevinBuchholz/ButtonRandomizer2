@@ -13,7 +13,7 @@ struct Tom1View: View {
     
     var body: some View {
         ZStack{
-
+            
             Circle()
                 .strokeBorder(.black, lineWidth: 5)
                 .background(Circle().fill(.white))
@@ -29,6 +29,15 @@ struct Tom1View: View {
                             vm.playTom1()
                         }
                     }))
+            
+            Button {
+                
+            } label: {
+                Circle()
+//                    .strokeBorder(.black, lineWidth: 5)
+                    .foregroundColor(.black)
+                    .frame(width: 150, height: 150)
+            }
             
             Text("TOM")
         }
