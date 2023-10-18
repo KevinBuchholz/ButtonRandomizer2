@@ -31,6 +31,7 @@
 		D65FE2FA2ACD948D0013DF05 /* DrumKitRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */; };
 		D65FE2FC2ACD98D60013DF05 /* TrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */; };
 		D6917B942AE03224001245AE /* XCodeGitTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917B932AE03224001245AE /* XCodeGitTestFile.swift */; };
+		D6917B962AE03707001245AE /* TESTFILE2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917B952AE03707001245AE /* TESTFILE2.swift */; };
 		D6A2668A2AD889B700886E22 /* coryissick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6A266892AD889B700886E22 /* coryissick.mp3 */; };
 		D6B4EC052ACAFF2C003B6F0D /* ButtonRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */; };
 		D6B4EC072ACAFF2C003B6F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */; };
@@ -102,6 +103,7 @@
 		D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumKitRandomizer.swift; sourceTree = "<group>"; };
 		D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollViewModel.swift; sourceTree = "<group>"; };
 		D6917B932AE03224001245AE /* XCodeGitTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCodeGitTestFile.swift; sourceTree = "<group>"; };
+		D6917B952AE03707001245AE /* TESTFILE2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTFILE2.swift; sourceTree = "<group>"; };
 		D6A266892AD889B700886E22 /* coryissick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coryissick.mp3; sourceTree = "<group>"; };
 		D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerApp.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				D601E8A32ACCAAFB00CBD045 /* DRUMS */,
 				D601E8912ACCA92800CBD045 /* DrumKit4.swift */,
 				D6917B932AE03224001245AE /* XCodeGitTestFile.swift */,
+				D6917B952AE03707001245AE /* TESTFILE2.swift */,
 				D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */,
 				D601E8432ACC809100CBD045 /* CircleOnTap.swift */,
 				D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */,
@@ -444,6 +447,7 @@
 				D601E8A22ACCAAE100CBD045 /* Crash2View.swift in Sources */,
 				D6B4EC2F2ACB1114003B6F0D /* DrumLayout.swift in Sources */,
 				D601E8922ACCA92800CBD045 /* DrumKit4.swift in Sources */,
+				D6917B962AE03707001245AE /* TESTFILE2.swift in Sources */,
 				D601E8422ACC620800CBD045 /* COUNTER.swift in Sources */,
 				D6B4EC552ACB607A003B6F0D /* DrumLayout2.swift in Sources */,
 				D601E89A2ACCAA6A00CBD045 /* FloorTomView.swift in Sources */,
