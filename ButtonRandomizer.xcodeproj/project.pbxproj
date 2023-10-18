@@ -30,6 +30,7 @@
 		D64997E62AD9927F00862BA1 /* basscut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64997E52AD9927F00862BA1 /* basscut.mp3 */; };
 		D65FE2FA2ACD948D0013DF05 /* DrumKitRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */; };
 		D65FE2FC2ACD98D60013DF05 /* TrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */; };
+		D6917B942AE03224001245AE /* XCodeGitTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917B932AE03224001245AE /* XCodeGitTestFile.swift */; };
 		D6A2668A2AD889B700886E22 /* coryissick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6A266892AD889B700886E22 /* coryissick.mp3 */; };
 		D6B4EC052ACAFF2C003B6F0D /* ButtonRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */; };
 		D6B4EC072ACAFF2C003B6F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */; };
@@ -100,6 +101,7 @@
 		D64997E52AD9927F00862BA1 /* basscut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = basscut.mp3; sourceTree = "<group>"; };
 		D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumKitRandomizer.swift; sourceTree = "<group>"; };
 		D65FE2FB2ACD98D60013DF05 /* TrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollViewModel.swift; sourceTree = "<group>"; };
+		D6917B932AE03224001245AE /* XCodeGitTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCodeGitTestFile.swift; sourceTree = "<group>"; };
 		D6A266892AD889B700886E22 /* coryissick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coryissick.mp3; sourceTree = "<group>"; };
 		D6B4EC012ACAFF2C003B6F0D /* ButtonRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRandomizerApp.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				D6B4EC042ACAFF2C003B6F0D /* ButtonRandomizerApp.swift */,
 				D601E8A32ACCAAFB00CBD045 /* DRUMS */,
 				D601E8912ACCA92800CBD045 /* DrumKit4.swift */,
+				D6917B932AE03224001245AE /* XCodeGitTestFile.swift */,
 				D65FE2F92ACD948D0013DF05 /* DrumKitRandomizer.swift */,
 				D601E8432ACC809100CBD045 /* CircleOnTap.swift */,
 				D6B4EC062ACAFF2C003B6F0D /* ContentView.swift */,
@@ -338,7 +341,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					D6B4EC002ACAFF2C003B6F0D = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -447,6 +450,7 @@
 				D601E8902ACCA8F300CBD045 /* BassDrumView.swift in Sources */,
 				D65FE2FC2ACD98D60013DF05 /* TrollViewModel.swift in Sources */,
 				D6B4EC362ACB45BB003B6F0D /* CircleButtonTest.swift in Sources */,
+				D6917B942AE03224001245AE /* XCodeGitTestFile.swift in Sources */,
 				D65FE2FA2ACD948D0013DF05 /* DrumKitRandomizer.swift in Sources */,
 				D601E8982ACCAA4800CBD045 /* Tom2View.swift in Sources */,
 				D6B4EC532ACB5E11003B6F0D /* OnTapTest.swift in Sources */,
@@ -491,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -523,6 +528,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -551,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -583,6 +590,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
